@@ -1,0 +1,16 @@
+directories:
+  output: release
+  buildResources: assets
+appId: com.cryteam.decentra
+mac:
+  category: public.app-category.utilities
+win:
+  target: nsis
+linux:
+  target: AppImage
+files:
+  - filter:
+      - dist/**/*
+      - electron/**/*
+      - package.json
+electronVersion: 42.4.0
