@@ -1,0 +1,8 @@
+{
+  "name": "CRYBRUH - Студия CRYTEAM",
+  "description": "Децентрализованный браузер нового поколения",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
