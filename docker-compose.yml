@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  crybruh-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: crybruh_node
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    restart: unless-stopped
